@@ -46,7 +46,7 @@
                                 <a class="nav-link" href="{{route('Aouther.homepage')}}">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
+                                <a class="nav-link" href="{{route('Aouther.homepage')}}">About</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

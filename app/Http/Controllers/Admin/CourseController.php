@@ -30,7 +30,8 @@ class CourseController extends Controller
             'teacher_id' =>'required|exists:teachers,id',
             'img' => 'required|image|mimes:jpg,jpeg,png',
         ]);
-
+        $course = new Course();
+        $course->notifyNewCourse();
         $new_name = $data['img']->hashName();
         Image::make($data['img'])->resize(50,50)->save(public_path('uploads/courses/'. $new_name));
         $data['img'] = $new_name;

@@ -13,8 +13,8 @@ return [
     |
     */
 
-    'failed' => 'أوراق الاعتماد هذه لا تتطابق مع سجلاتنا.',
-    'password' => 'The provided password is incorrect.',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'failed' => 'Bu kimlik bilgileri kayıtlarımızla eşleşmiyor.',
+    'password' => 'Sağlanan şifre yanlış.',
+    'throttle' => 'Çok fazla giriş denemesi. Lütfen içinde tekrar deneyin :seconds seconds.',
 
 ];
